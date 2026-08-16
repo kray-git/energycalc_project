@@ -1,0 +1,4 @@
+name,category,default_watts,typical_hours_per_day
+Test Bulb,Lighting,100,10
+Test Fan,Cooling,50,4
+Test Fridge,Kitchen,200,24

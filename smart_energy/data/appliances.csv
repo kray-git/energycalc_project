@@ -1,0 +1,23 @@
+name,category,default_watts,typical_hours_per_day
+LED Bulb,Lighting,10,6
+Fluorescent Tube,Lighting,36,6
+Ceiling Fan,Cooling,75,10
+Standing Fan,Cooling,55,8
+Air Conditioner 1.5HP,Cooling,1200,8
+Refrigerator,Kitchen,150,24
+Chest Freezer,Kitchen,200,24
+Microwave,Kitchen,1000,0.5
+Electric Kettle,Kitchen,2000,0.5
+Rice Cooker,Kitchen,700,1
+Blender,Kitchen,400,0.25
+Television 32in LED,Entertainment,60,5
+Decoder / Set-top Box,Entertainment,25,5
+Laptop,Electronics,65,6
+Desktop Computer,Electronics,200,6
+Router / Modem,Electronics,12,24
+Phone Charger,Electronics,10,3
+Electric Iron,Laundry,1100,0.5
+Washing Machine,Laundry,500,1
+Water Pump 0.5HP,Utility,375,1
+Electric Water Heater,Utility,3000,1
+Security Light,Lighting,30,12

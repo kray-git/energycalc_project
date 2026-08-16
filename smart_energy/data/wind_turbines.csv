@@ -1,0 +1,5 @@
+model,rated_kw,rotor_diameter_m,cut_in_speed_ms,rated_speed_ms,cut_out_speed_ms,cost_ghs,lifespan_years
+Micro-400,0.4,1.2,2.5,11.0,25.0,4200,15
+Small-1000,1.0,2.1,3.0,11.5,25.0,9800,20
+Small-3000,3.0,3.7,3.0,12.0,25.0,26500,20
+Mid-5000,5.0,5.0,3.5,12.5,25.0,41000,20

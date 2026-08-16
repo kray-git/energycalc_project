@@ -1,0 +1,4 @@
+band_name,min_kwh,max_kwh,rate_ghs_per_kwh,service_charge_ghs
+Test Band A,0,100,1.00,0.00
+Test Band B,101,200,2.00,0.00
+Test Band C,201,999999,3.00,0.00
