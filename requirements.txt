@@ -11,14 +11,11 @@
 
 # Web framework - serves the HTML GUI and the JSON API.
 Flask==3.0.3
+Flask-Caching
 
 # HTTP client - used by WeatherService to call Open-Meteo.
 requests==2.32.3
 
 # ----------------------------------------------------------------------
-#  OPTIONAL - only if you build the charting stretch goals.
-#  Do not install these unless you actually use them; an unused
-#  dependency is one more thing that can break on a teammate's machine.
-# ----------------------------------------------------------------------
-# plotly==5.22.0        # interactive charts
-# pandas==2.2.2         # only if CSV handling outgrows data_loader
+plotly==5.22.0        # interactive charts
+pandas==2.2.2         # only if CSV handling outgrows data_loader
