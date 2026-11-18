@@ -1,5 +1,0 @@
-model,rated_kw,min_head_m,min_flow_m3s,turbine_efficiency_percent,cost_ghs,lifespan_years
-Pico-1,1.0,2.0,0.06,65.0,8500,25
-Pico-5,5.0,4.0,0.18,70.0,29000,25
-Micro-20,20.0,8.0,0.40,78.0,96000,30
-Micro-50,50.0,12.0,0.65,82.0,210000,30

@@ -1,5 +1,0 @@
-band_name,min_kwh,max_kwh,rate_ghs_per_kwh,service_charge_ghs
-Lifeline,0,30,0.65,2.13
-Band 1,31,300,1.42,2.13
-Band 2,301,600,1.85,2.13
-Band 3,601,999999,2.06,2.13

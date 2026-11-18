@@ -1,6 +1,0 @@
-source,kg_co2_per_kwh,notes
-grid,0.380,Ghana mix - hydro plus thermal generation
-solar,0.045,Lifecycle - manufacturing and transport
-wind,0.011,Lifecycle - manufacturing and transport
-biomass,0.230,Combustion plus feedstock transport
-hydro,0.024,Lifecycle - civil works and equipment
