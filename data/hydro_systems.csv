@@ -1,0 +1,4 @@
+system_type,typical_head_m,typical_flow_m3s,turbine_efficiency,cost_ghs,expected_lifespan_years,maintenance_rate
+Pico-Hydro (Pelton),10,0.02,0.70,22000,20,0.02
+Micro-Hydro (Crossflow),15,0.05,0.75,48000,25,0.02
+Micro-Hydro (Francis),20,0.08,0.85,75000,25,0.02

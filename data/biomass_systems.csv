@@ -1,0 +1,4 @@
+system_type,feedstock_type,rated_capacity_kw,conversion_efficiency,cost_ghs,expected_lifespan_years,maintenance_rate
+Small Biogas Digester,Agricultural Waste,1.5,0.35,18000,15,0.04
+Household Biogas Digester,Food + Animal Waste,2.5,0.38,27000,15,0.04
+Biomass Generator,Wood Pellets,5.0,0.28,45000,12,0.05

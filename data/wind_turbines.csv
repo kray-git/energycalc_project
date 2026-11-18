@@ -1,0 +1,5 @@
+model,rated_capacity_kw,cost_ghs,capacity_factor,expected_lifespan_years,maintenance_rate
+Micro 0.5kW Turbine,0.5,7500,0.18,15,0.03
+Small 1kW Turbine,1.0,13500,0.20,15,0.03
+Small 3kW Turbine,3.0,34000,0.22,20,0.025
+Residential 5kW Turbine,5.0,58000,0.24,20,0.025

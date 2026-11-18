@@ -1,0 +1,6 @@
+source,kg_co2_per_kwh,notes
+grid,0.4200,Ghana grid mix (hydro + thermal) — update from Electricity Maps if available
+solar,0.0450,Lifecycle emissions from manufacturing/transport, not operational emissions
+wind,0.0110,Lifecycle emissions, small turbine class
+biomass,0.2300,Depends heavily on feedstock_type; this is a general estimate
+hydro,0.0240,Lifecycle emissions, micro-hydro class
