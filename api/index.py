@@ -4,7 +4,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 from app.extensions import cache
 from app.routes.api import api_bp
 
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+BASE_DIR = os.path.abspath(os.path.dirname(__file__), '..')
 PUBLIC_DIR = os.path.join(BASE_DIR, "public")
 
 
