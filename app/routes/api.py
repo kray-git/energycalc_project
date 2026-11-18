@@ -1,5 +1,7 @@
 from flask import Blueprint, jsonify, request
 
+from app.extensions import cache
+
 from app.data.data_loader import (
     load_appliances, load_solar_panels, load_wind_turbines,
     load_biomass_systems, load_hydro_systems, load_tariffs,
@@ -14,6 +16,24 @@ from app.services.location_service import (
     LocationNotFound,
     LocationServiceUnavailable,
 )
+
+api_bp = Blueprint("api", __name__, url_prefix="/api")
+
+# Reuse HTTP connections across requests
+http_session = requests.Session()
+
+
+@api_bp.route("/data")
+@cache.cached(timeout=300, query_string=True)
+def get_external_data():
+    query = request.args.get("q", "default")
+    resp = http_session.get(f"https://example.com{query}", timeout=8)
+    resp.raise_for_status()
+
+    response = jsonify(resp.json())
+    # Optional: Also cache on Vercel's global edge CDN for 60 seconds
+    response.headers["Cache-Control"] = "public, s-maxage=60, stale-while-revalidate=300"
+    return response
 
 api_bp = Blueprint("api", __name__, url_prefix="/api")
 
