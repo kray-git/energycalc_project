@@ -1,0 +1,4 @@
+name,category,default_watts,typical_hours_per_day
+Test Lamp,General,40,5
+Test Fan,Living Room,60,10
+Test Fridge,Kitchen,150,24

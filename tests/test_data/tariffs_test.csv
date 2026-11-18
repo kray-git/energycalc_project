@@ -1,0 +1,4 @@
+utility,customer_category,min_kwh,max_kwh,rate_ghs_per_kwh,effective_date
+TestUtility,Residential,0,100,1.00,2026-01-01
+TestUtility,Residential,101,500,2.00,2026-01-01
+TestUtility,Non-Residential,0,10000,3.00,2026-01-01
