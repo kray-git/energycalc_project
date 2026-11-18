@@ -1,7 +1,4 @@
 from flask import Blueprint, jsonify, request
-
-import requests
-
 from app.extensions import cache
 
 from app.data.data_loader import (
@@ -33,11 +30,13 @@ def _sanitize_for_json(value):
 
 
 @api_bp.route("/appliances", methods=["GET"])
+@cache.cached(timeout=3600)
 def get_appliances():
     return jsonify(load_appliances())
 
 
 @api_bp.route("/location", methods=["POST"])
+@cache.cached(timeout=3600)
 def resolve_location():
     payload = request.get_json(force=True, silent=True)
     if not isinstance(payload, dict):
@@ -68,6 +67,7 @@ def resolve_location():
 
 
 @api_bp.route("/location/validate", methods=["POST"])
+@cache.cached(timeout=3600)
 def validate_location():
     payload = request.get_json(force=True, silent=True)
     if not isinstance(payload, dict):
